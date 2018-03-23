@@ -21,7 +21,7 @@ body {
 #inputContainer {
     position: absolute;
     width: 20%;
-    margin: 50% 40%;
+    margin: 30% 40%;
 }
 
 #inputContainer > input {
@@ -40,4 +40,5 @@ body {
 ::placeholder {
     color: rgba(255, 255, 255, 1);
     opacity: 0.2;
+    text-align: left;
 }
