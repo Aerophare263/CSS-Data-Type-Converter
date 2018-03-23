@@ -20,8 +20,8 @@ body {
 
 #inputContainer {
     position: absolute;
-    width: 40%;
-    margin: 40% 30%;
+    width: 20%;
+    margin: 50% 40%;
 }
 
 #inputContainer > input {
@@ -30,13 +30,14 @@ body {
     width: 100%;
     text-align: center;
     background: rgba(0, 0, 0, 0);
-    border: none;
     color: white;
     outline: none;
     margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.8);
 }
 
 ::placeholder {
-    color: white;
+    color: rgba(255, 255, 255, 1);
     opacity: 0.2;
 }
