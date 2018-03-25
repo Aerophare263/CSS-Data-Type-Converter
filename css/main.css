@@ -29,16 +29,21 @@ body {
     width: 100%;
     text-align: left;
     background: rgba(0, 0, 0, 0);
-    color: white;
+    color: inherit;
     outline: none;
     margin-bottom: 20px;
     border: none;
     border-bottom: 1px dotted rgba(255, 255, 255, 0.8);
 }
 
-::placeholder {
-    color: rgba(255, 255, 255, 1);
+#inputContainer > p {
+    color: inherit;
     opacity: 0.2;
+}
+
+::placeholder {
+    color: inherit;
+    opacity: 0.3;
 }
 
 @media screen and (max-width: 700px) {
