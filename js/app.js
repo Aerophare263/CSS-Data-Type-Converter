@@ -12,7 +12,10 @@ function rgba2hex () {
 
     // Keep text readable
     if (rgbaArray != null) {
-        if (parseInt(rgbaArray[1],10) >= 200 || parseInt(rgbaArray[2],10) >= 200 || parseInt(rgbaArray[3],10) >= 200) {
+        if (parseInt(rgbaArray[1],10) + parseInt(rgbaArray[2],10) + parseInt(rgbaArray[3],10) >= 300) {
+            document.body.style.color = "#000000";
+        }
+        else if (parseInt(rgbaArray[1],10) >= 200 || parseInt(rgbaArray[2],10) >= 200 || parseInt(rgbaArray[3],10) >= 200) {
             document.body.style.color = "#000000";
         }
         else {

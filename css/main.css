@@ -33,7 +33,6 @@ body {
     outline: none;
     margin-bottom: 20px;
     border: none;
-    border-bottom: 1px dotted rgba(255, 255, 255, 0.8);
 }
 
 #inputContainer > p {
@@ -43,7 +42,7 @@ body {
 
 ::placeholder {
     color: inherit;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 @media screen and (max-width: 700px) {
